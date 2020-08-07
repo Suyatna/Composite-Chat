@@ -19,4 +19,5 @@ How would this method work? For a product, it'd simply return the product's pric
 for this box. If one of these items were a smaller box, that box would also start going over its contents and so on, until the prices of all inner components were calculated. 
 A box could even add some extra cost to the final price, such as packaging cost.
 
-The greatest benefit of this approach is that you don't neet to care about the concrete classes of objects that compose the tree. You 
+The greatest benefit of this approach is that you don't neet to care about the concrete classes of objects that compose the tree. You don't need to know whether an object is a
+simple product or a sophisticated box. You can treat them all the same via the common interface. When you call a method, the objects themselves pass the request down the tree.
