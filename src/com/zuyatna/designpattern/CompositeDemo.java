@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class CompositeDemo {
 
     public static void main(String[] args) throws IOException {
 
